@@ -1,0 +1,28 @@
+---
+title: "example"
+format:
+  html:
+    minimal: true
+    self-contained: true
+---
+
+:::{.my-div}
+## My heading
+:::
+
+## My other heading {#heading-id}
+
+```{r}
+print("hello world")
+```
+
+```
+--------------A------------
+--------------B------------
+```
+Analysis variable shift left 3:
+
+```
+-----------A---------------
+--------------B------------
+```
