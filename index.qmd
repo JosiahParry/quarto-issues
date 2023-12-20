@@ -4,6 +4,8 @@ format:
   html:
     minimal: true
     self-contained: true
+post-render: 
+  - post-render.R
 ---
 
 :::{.my-div}
